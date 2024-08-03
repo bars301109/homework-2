@@ -4,7 +4,9 @@ git config --global user.name "ваш никнейм"
 
 В новом проекте один раз:
 git init: связывает проект с гитом
-git remote add origin https://github.com/bars301109/homework-2.git:
+git remote add origin:  связывает проект с репозиторием
 
 всегда:
-git add или git add .
+git add .   :добавляет файлы
+git commit -m "name"    :checkpoint
+git push -u origin main      :Отправляет файлы в репозиторий
